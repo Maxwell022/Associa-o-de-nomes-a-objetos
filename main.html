@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Associação de Nomes e Objetos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Associação de Nomes e Objetos</h2>
+
+    <div class="listas">
+      <div>
+        <h3>Nomes:</h3>
+        <ul id="nomes"></ul>
+      </div>
+      <div>
+        <h3>Objetos:</h3>
+        <ul id="objetos"></ul>
+      </div>
+    </div>
+    <div class="colegas">
+      <button onclick="adicionarNomeEspecifico('Gabriel')">Gabriel</button>
+      <button onclick="adicionarNomeEspecifico('Max')">Max</button>
+      <button onclick="adicionarNomeEspecifico('Rafa')">Rafa</button>
+      <button onclick="adicionarNomeEspecifico('Yuri')">Yuri</button>
+      <button onclick="adicionarNomeEspecifico('Roberta')">Roberta</button>
+    </div>
+
+    <div class="adicionar">
+        <input type="text" id="inputNome" placeholder="Digite um nome">
+        <button onclick="adicionarNome()">Adicionar Nome</button>
+    </div>
+
+
+    <button onclick="avancarNomes()">Avançar Ordem dos Nomes</button>
+    
+
+    <h3>Associações:</h3>
+    <ul id="associacoes"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
