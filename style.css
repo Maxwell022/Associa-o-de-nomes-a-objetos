@@ -67,3 +67,19 @@ button:hover {
 .colegas button:hover {
   background-color: #218838;
 }
+
+.salvar-lista {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+.salvar-lista input {
+  flex: 1;
+  padding: 8px;
+}
+#listasSalvas li {
+  margin-bottom: 5px;
+}
+#listasSalvas button {
+  margin-left: 10px;
+}

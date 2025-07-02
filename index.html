@@ -19,26 +19,58 @@
         <ul id="objetos"></ul>
       </div>
     </div>
+    <h1>Adicionar nomes:</h1>
     <div class="colegas">
       <button onclick="adicionarNomeEspecifico('Gabriel')">Gabriel</button>
       <button onclick="adicionarNomeEspecifico('Max')">Max</button>
       <button onclick="adicionarNomeEspecifico('Rafa')">Rafa</button>
       <button onclick="adicionarNomeEspecifico('Yuri')">Yuri</button>
       <button onclick="adicionarNomeEspecifico('Roberta')">Roberta</button>
+      <button onclick="adicionarNomeEspecifico('Rosana')">Rosana</button>
+      <button onclick="adicionarNomeEspecifico('Brenda')">Brenda</button>
+      <button onclick="adicionarNomeEspecifico('Andreia')">Andreia</button>
+      <button onclick="adicionarNomeEspecifico('Kayane')">Kayane</button>
+      <button onclick="adicionarNomeEspecifico('Jenifer')">Jenifer</button>
     </div>
-
+    
     <div class="adicionar">
-        <input type="text" id="inputNome" placeholder="Digite um nome">
-        <button onclick="adicionarNome()">Adicionar Nome</button>
+      <input type="text" id="inputNome" placeholder="Digite um nome">
+      <button onclick="adicionarNome()">Adicionar Nome</button>
+    </div>
+    
+    <h1>Adicionar objetos:</h1>
+    <div class="objetos">
+      <button onclick="adicionarObjeto('Tesoura')">Tesoura</button>
+      <button onclick="adicionarObjeto('Luvas')">Luvas</button>
+      <button onclick="adicionarObjeto('Canivete')">Canivete</button>
+      <button onclick="adicionarObjeto('Fones de ouvido bluetooth')">Fones de ouvido bluetooth</button>
+      <button onclick="adicionarObjeto('Sacola')">Sacola</button>
+      <button onclick="adicionarObjeto('Lanterna')">Lanterna</button>
+      <button onclick="adicionarObjeto('Régua')">Régua</button>
+      <button onclick="adicionarObjeto('Tesoura')">Tesoura</button>
+      <button onclick="adicionarObjeto('Estojo de ferramentas')">Estojo de ferramentas</button>
+      <button onclick="adicionarObjeto('Caixa de Som Bluetooth')">Caixa de Som Bluetooth</button>
     </div>
 
 
+    <h3>Associações:</h3>
     <button onclick="avancarNomes()">Avançar Ordem dos Nomes</button>
     
 
-    <h3>Associações:</h3>
     <ul id="associacoes"></ul>
+
+    <div class="salvar-lista">
+    <input type="text" id="nomeLista" placeholder="Nome da lista">
+    <button onclick="salvarLista()">Salvar Lista</button>
+    </div>
+
+
+    <h3>Listas Salvas:</h3>
+    <div id="todasListasSalvas"></div>
+
   </div>
+
+
 
   <script src="script.js"></script>
 </body>
