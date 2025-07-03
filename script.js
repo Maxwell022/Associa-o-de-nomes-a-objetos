@@ -39,6 +39,12 @@ function avancarNomes() {
   mostrarListas();
 }
 
+function avancarObjetos(){
+  const ultimo = objetos.pop();
+  objetos.unshift(ultimo);
+  mostrarListas();
+}
+
 function adicionarNome() {
   const input = document.getElementById("inputNome");
   const novoNome = input.value.trim();
